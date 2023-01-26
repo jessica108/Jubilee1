@@ -25,7 +25,7 @@ h2 {
   .text {
     font-size: 20px;
     padding-left: 50px;
-    text-align: right;
+    text-align: center;
   }
   .navbar a {
     float: left;
