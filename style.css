@@ -24,7 +24,7 @@ h2 {
   }
   .text {
     text-align: right;
-    
+    margin-right: 100px;
   }
   .navbar a {
     float: left;
