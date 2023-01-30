@@ -45,6 +45,9 @@ box-sizing: border-box;
   overflow: hidden;
   border-radius: 10px;
   color: bisque;
+  margin-top: 300px;
+  margin-bottom: 200px;
+  margin-left: 200px;
 }
 
   .navbar {
