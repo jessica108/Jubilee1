@@ -28,20 +28,12 @@ box-sizing: border-box;
 
     }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) 
 .columns {
     width: 100%;
 }
 
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 30px 30px;
-    text-decoration: none;
-    font-size: 30px;
-  }
+
   .navbar {
     overflow: hidden;
     background-color: cadetblue;
