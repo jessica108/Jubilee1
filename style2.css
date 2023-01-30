@@ -33,22 +33,25 @@ box-sizing: border-box;
     width: 75%;
 }
 
+/* the CSS box model */
 
+/*
+Margin:
+Border:
+Padding:
+*/
 
-.container .box {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  margin: 100px;
-  float: left;
-  box-sizing: border-box;
-  overflow: hidden;
-  border-radius: 10px;
-  color: bisque;
-  margin-top: 300px;
-  margin-bottom: 200px;
-  margin-left: 200px;
+.box {
+  background: blue;
+  width: 300px;
+
+margin: 100px;
+border-width: 5px;
+border-color: black;
+border-style: solid;
+
 }
+
 
   .navbar {
     overflow: hidden;
