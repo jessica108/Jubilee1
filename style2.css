@@ -44,12 +44,12 @@ Padding:
 .box {
   background: gray;
   width: 300px;
-  height: 400px;
-  margin: 300px;
+  height: 200px;
+  margin: 200px;
   border-width: 5px;
   border-color: black;
   border-style: solid;
-  margin-top: 200px;
+  margin-top: 100px;
   font-size: 22px;
 }
 
