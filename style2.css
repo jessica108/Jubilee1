@@ -42,7 +42,7 @@ Padding:
 */
 
 .box {
-  background: grey;
+  background: lightgray;
   width: 300px;
   height: 200px;
   margin: 200px;
@@ -86,6 +86,15 @@ Padding:
     padding: 16px;
     margin-bottom: 30px;
   }
+  .footer {
+    text-align: center;
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+
+  }
+
   </style>
   </head>
   <body>
