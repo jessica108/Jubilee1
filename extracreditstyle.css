@@ -2,3 +2,12 @@ body {
     background-image: url('pictureframe.jpg');
     background-size: 35%;
 }
+.header {
+color: black;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+
