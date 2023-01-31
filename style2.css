@@ -28,7 +28,7 @@ box-sizing: border-box;
 
     }
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 600px) 
 .columns {
     width: 75%;
 }
@@ -45,7 +45,7 @@ Padding:
   background: gray;
   width: 300px;
   height: 200px;
-  margin: 200px;
+  margin: 2 00px;
   border-width: 5px;
   border-color: black;
   border-style: solid;
