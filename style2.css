@@ -2,11 +2,16 @@ body {
     background-color:#ffffff;
 } 
 h1 {
-    color: white;
+    color: black;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
+h2 {
+  color: black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 * {
 box-sizing: border-box;
 
