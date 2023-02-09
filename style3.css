@@ -1,0 +1,31 @@
+
+body {
+    background: color #eeede7;
+
+* {
+    box-sizing: border-box;
+
+}
+.menu {
+    float: left;
+    width: 20%;
+    }
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #868B8E;
+}
+.main {
+    float: left;
+    width: 60%
+    padding: 0 20px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 500px) {
+/* For mobile phones: */ 
+.menu, .main, {
+    width: 100%;
+
+}
+
+}
