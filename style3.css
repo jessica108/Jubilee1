@@ -2,25 +2,37 @@
 body {
     background: color #eeede7;
 
-* {
-    box-sizing: border-box;
+.tovnav {
+overflow:hidden;
+backgroundcolor: #b9b7bd;
+}
 
+.tovnav a {
+float: left;
+color: #868b8e;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
 }
-.menu {
-    float: left;
-    width: 20%;
-    }
-.menuitem {
-    padding: 8px;
-    margin-top: 7px;
-    border-bottom: 1px solid #868B8E;
+
+.topnav a:hover {
+    background-color: #e7d2cc;
+    color: white;
 }
-.main {
-    float: left;
-    width: 60%
-    padding: 0 20px;
-    overflow: hidden;
+
+.topnav a. active {
+background color: #868b8e;
+color:white;
 }
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 500px) {
 /* For mobile phones: */ 
 .menu, .main, {
