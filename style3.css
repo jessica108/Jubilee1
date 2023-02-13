@@ -1,4 +1,26 @@
 body {
+  background-color: #ffffff;
+  color: black;
+}
+/* On screens that are 992px wide or less, the background color is #eeede7 */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #eeede7;
+    color: black;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is #e7d2cc */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #e7d2cc;
+    color:black;
+  }
+}
+
+
+
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
