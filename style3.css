@@ -10,8 +10,10 @@ body {
   }
 }
 
-/* On screens that are 600px wide or less, the background color is #e7d2cc */
+/* When the screens is less than 600 pixels wide, hide all the links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon). */
 @media screen and (max-width: 600px) {
+  .topnav a:not (:first-child) {display: none;}
+  .topnav a.icon {
     body {
     background-color: #e7d2cc;
     color:black;
