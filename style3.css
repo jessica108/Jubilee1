@@ -12,6 +12,11 @@ body {
 
 /* On screens that are 600px wide or less, the background color is #e7d2cc */
 @media screen and (max-width: 600px) {
+  .topnav.responsive {position:relative;}
+  .topnav.responsive .icon {
+    position:absolute;
+    right: 0;
+    top:0;
   body {
     background-color: #e7d2cc;
     color:black;
