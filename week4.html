@@ -40,13 +40,68 @@ alert ("It was not a 5, so we do nothing.")
 }
 }
 </script>
-<h1 style="text-align: center;">Simple Javascript webpage. Change the background color with a number.</h1>
+<h1 style="text-align: center;"> Responsive webpage example and change the background color with a number.</h1>
 
 <!-- Here is a button with an event handler to call the function backGroundColorChange -->
 <button type="button" onclick="backGroundColorChange()">Set background color</button>
 
 
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#examples">Examples</a>
+  <a href="#contact">Contact</a>
+  <a href="#content">Content</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<br>
+<div style="padding: left 16px;"> 
 
+
+<p> </p>
+</div>
+
+<script>
+
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  
+   <div class="flex-container">
+    <div class="flex-item-left"> <img src="companylogo.jpg" alt="" width="400 px" height="400 px" class="center"> </div>
+       
+      
+    <div class="flex-item-right"> <img src="blankimage.jpg" alt="" width="400 px" height="400 px" class="center"> </div>
+  </div>
+  
+<br>
+<br><textarea id="w3review" name="w3review" rows="4" cols="50">
+  Company Quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+  </textarea>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer> <footer style="height: 80px; background-color: #868b8e; font-family: Georgia, 'Times New Roman', Times, serif; align-content: center"> <center>Footer: Social Media Links and Info  </center></footer>
+</body>
+</html>
 
 
   </body>
