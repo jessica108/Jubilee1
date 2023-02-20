@@ -23,20 +23,21 @@ var colorChoiceVar;
 /* 
 Input something from the user and put it into the variable
 */
-colorChoiceVar = Number (prompt("Input a 5 to change the color"));
+colorChoiceVar = Number (prompt("Input an odd number under 9 to change the color"));
 /*
 */
 if (
+    
     colorChoiceVar == 5)
     {
 /* It was a 5, so the boolen is true. We execute this code. */
 alert("It was 5, so we will change the background color.")
-document.body.style.backgroundColor = "#c59894";
+document.body.style.backgroundColor = "#f7c9b6";
 }
     else
 {
-/* It was Not a 5, so the boolean is false. We execute this other code. */
-alert ("It was not a 5, so we do nothing.")
+/* It was Not a 1,3,5, 7 so the boolean is false. We execute this other code. */
+alert ("It was not an odd number, so we do nothing.")
 }
 }
 </script>
