@@ -27,7 +27,6 @@
 <script>
 /*
 This is a function to allow the user to change the background color of the page.
-
 */
 function backGroundColorChange () {
 
@@ -36,7 +35,6 @@ variable assignment and then an if to make a decision
 to writing to the web page
 */
 var colorChoiceVar;
-
 
 /* 
 Input something from the user and put it into the variable
@@ -47,13 +45,14 @@ colorChoiceVar = Number (prompt("Input a 1 to change the color"));
 if (
     colorChoiceVar == 1)
     {
-/* It waws a 1, so the boolen is true. We execute this code. */
-alert ("It was 1, so we will change the background color.")
+/* It was a 1, so the boolen is true. We execute this code. */
+alert("It was 1, so we will change the background color.")
 document.body.style.backgroundColor = "#c59894";
-    }
 }
+    else
+{
 /* It was Not a 1, so the boolean is false. We execute this other code. */
-alert ("It was not 1, so we do nothing.")
+alert ("It was not a 1, so we do nothing.")
 }
 }
 
