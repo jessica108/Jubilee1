@@ -42,11 +42,26 @@ alert ("It was not a 5, so we do nothing.")
 }
 }
 </script>
-<h1 style="text-align: center;"> Responsive webpage example and change the background color with a number.</h1>
+<h1 style="text-align: center;"> Responsive webpage example, change the background color with a number, and Javascript Variables.</h1>
 
 <!-- Here is a button with an event handler to call the function backGroundColorChange -->
 <button type="button" onclick="backGroundColorChange()">Set background color</button>
 
+<br> 
+<br>
+
+<!--This code shows a JavaScript Variable -->
+
+<p> In this example, x, y, and z are variables </p>
+<p id="demo"></p>
+
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+</script>
 
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
