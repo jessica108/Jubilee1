@@ -61,7 +61,7 @@ body {font-family: 'Times New Roman', Times, serif;}
     
     .container {
         padding: 20px;
-        background-color: #6aabd2;
+        background-color: #b7cfdc;
     }
 
     input [type=text], input [type=submit] {
@@ -84,4 +84,3 @@ body {font-family: 'Times New Roman', Times, serif;}
         input [type=submit]:hover {
             opacity: 0.8;
         }
-        
