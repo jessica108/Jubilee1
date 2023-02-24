@@ -24,14 +24,25 @@
   </a>
 </div>
 <br>
+
 <h1> Fill out the information below to sign up for the Potter Elementary Newsletter </h1>
 <div style="padding: left 16px;"> 
-    <form>
-        <label>Name</label>
-        <input>
-        <label>Password</label>
-        <input>
-        <button>Submit</button>
+
+    <!----This is the Newsletter Sign up function -->
+    <form action="/action_page.php">
+        <div class="container" style="background-color:white">
+            <input type="text" placeholder="First Name" firstname="First Name" required>
+            <input type="text" placeholder="Last Name" lastname="Last Name" required>
+            <input type="text" placeholder="Child's Name" childname="Child's Name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+            <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+            </label>
+        </div>     
+        <div class="container">
+            <input type="submit" value="Subscribe">
+        </div>
     </form>
+        
 </body>
 </html>
