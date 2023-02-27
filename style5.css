@@ -2,14 +2,6 @@ body {
    font-family: 'Times New Roman', Times, serif;
 }
 
-#example1 {
-  border: 2px solid black;
-  padding: 25px;
-  background: url(girl.jpg);
-  background-repeat: no-repeat;
-  background-size: 200% 200%;
-}
-
 .topnav {
     overflow: hidden;
     background-color: #385E72;
