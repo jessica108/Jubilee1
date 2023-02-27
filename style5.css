@@ -1,6 +1,13 @@
 body {
-  background-image: url ("apple.jpg");
- font-family: 'Times New Roman', Times, serif;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#example1 {
+  border: 2px solid black;
+  padding: 25px;
+  background: url(apple.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .topnav {
