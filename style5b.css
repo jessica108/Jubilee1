@@ -1,0 +1,15 @@
+body {
+margin: 0;
+top: 0;
+font-family: 'Times New Roman', Times, serif;
+}
+section {
+padding:0 100px;
+background: url(applewithbooks.jpg)
+height: 100vh;   
+display: flex;
+justify-content: center;
+
+
+
+}
