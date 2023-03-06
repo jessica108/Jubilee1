@@ -16,16 +16,94 @@
 		<li><a href="#">About</a></li>
 		<li><a href="#">Contact</a></li>
 		<li><a href="#">School Events</a></li>
+    <!--End of nav bar-->
 	</ul>
-    </ul>
+    </header>
+</div>
+<br>
+<br>
+<script>
+    // function for onclick button to display school info
+    function clickInfogreen () {
+        document.getElementById("Greenvalley").innerHTML="Green Valley Elementary School has two classrooms per grade level and currently has 107 students enrolled. Green Valley uses project based learning with a hands on approach to teach curriculum.Green Valley has a running club and lego club."
+    }
+    function clickInfoblue () {
+        document.getElementById ("Blueridge").innerHTML="Blue Ridge Middle School"
+    }
+    function ClickInfomountain (){
+        document.getElementById ("Mountain Crest").innerHTML="Mountaincrest......."
+    }
+    </script>
+    </head>
+    <br>
 
-</header>
-<section>
-    <div class="box">
-        <h2> Waiting List</h2>
-        <p></p>
+    <body>
+        <!--Elementary school info-->
+        <div class="row">
+            <div class="column" style="background: color #0067b3;">
+
+        <!--Green Valley School section--><section>
+            <button onclick="clickInfogreen()"> <h2>Green Valley <br> Elementary School</h2></button>
+            <p id="Greenvalley"></p> <!-- assign id to each school's information and the function will call each one-->
+        </section>
+        </div>
+        <div class="column" style="background-color: #40B0DF;"></div>
+
+        <!-- Blue Ridge Middle School section --><section>
+            <button onclick="clickInfoblue()"><h2>Blue Ridge <br> Middle School</h2></button><br><br>
+            <p id="Blueridge"></p> <!-- assign id to each school's information and the function will call each one-->     
+            </section>
+            </div>
+            <div class="column" style="background-color: #FFD53D;">
+
+                <!--Mountain Crest High School section -->
+                <button onclick="clickInfomountain()"><h2>Mountain Crest <br> High School</h2></button><br><br>
+                <p id="Mountaincrest"></p> <!-- assign id to each school's information and the function will call each one-->  
+            </div> <!--End of school info-->
+            <br>
+            <br>
+
+            <!--Waitlist Form-->
+	<br>
+	<h2> Miller County School District has a waiting list. Please fill out the information below. </h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email address:</label><br>
+        <input type="text" id="email" name="email"><br>
+         <label for="cname">Child's name:</label><br>
+        <input type="text" id="cname" name="cname"><br>
+        <label for="cage">Child's age:</label><br>
+        <input type="text" id="cage" name="cage"><br>
+           <label for="grade">Upcoming grade:</label><br>
+        <input type="text" id="grade" name="grade"><br>  
+           <label for="gender">Gender:</label><br>
+        <input type="text" id="gender" name="gender"><br>     
+       
+            <br>
+            <label for="cars">Choose the school you are filling out the waiting list for:</label>
+    <select id="schools" name="schools">
+    <option value="greenvalley">Green Valley Elementary</option>
+    <option value="blueridge">Blue Ridge Middle</option>
+    <option value="mountaincrest">Mountain Crest High</option>
+    <br>
+  </select>
+    <input type="submit">
+	   <!--End of form-->
+    </form>
+
+</body>
+<p>Thank you for considering Miller County School District. We will be in touch within 3-5 days. </p>
+<p> <img src="schoollogo2.jpg" alt=""></p>
+
+</body>
+	
+	</form>
+	</div>
+	</body>
+</html>
     </div>
 </section>
 
-</body>
-</html>
