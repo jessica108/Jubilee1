@@ -6,7 +6,6 @@ body
 	overflow-x: hidden;
 	text-align: center;
 }
-
 header
 {
 	background-color: #ffffff;
@@ -46,18 +45,19 @@ header ul #contact a
 
 }
 * {
-	box-sizing:border-box;
+	box-sizing: border-box;
 }
 
-/* Columns that float */
+/* Columns that floats next to each other */
 .column {
 	float:left;
 	width: 33.33%;
 	padding: 10px;
 	height: 300px;
 }
-/*Floats after the column */
-.row after {
+
+/*Clear floats after the column */
+.row: after {
 	content: "";
 	display: table;
 	clear: both;
