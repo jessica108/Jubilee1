@@ -13,7 +13,7 @@ header
 	padding: 15px;
 	box-shadow: 0 0 3px #000;
 	align-content: center;
-	color: #0000a3
+	color: #0000a3;
 }
 
 header li
@@ -36,9 +36,22 @@ header li a: hover
 	text-decoration: none;
 	padding: 13px;
 }
-header li img
-{
-	width: 130px;
-	float: left;
-	margin-top: -20px;
+
+
+* {
+	box-sizing:border-box;
+}
+
+/* Columns that float */
+.column {
+	float:left;
+	width: 33.33%;
+	padding: 10px;
+	height: 300px;
+}
+/*Floats after the column */
+.row after {
+	content: "";
+	display: table;
+	clear: both;
 }
