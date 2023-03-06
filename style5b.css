@@ -5,7 +5,9 @@ body
 	margin: 0;
 	overflow-x: hidden;
 	text-align: center;
-}
+	
+	}
+
 header
 {
 	background-color: #ffffff;
@@ -29,7 +31,7 @@ header li a
 	transition: .3s ease;
 }
 
-header li a: hover
+header li a:hover
 {
 	color:#0000a3;
 	text-decoration: none;
