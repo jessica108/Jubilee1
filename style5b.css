@@ -42,8 +42,19 @@ header ul #contact a
 	background:#0000a3;
 	border-radius: 30px;
 	float: right;
-
 }
+
+header ul #school a
+{
+	color:#0000a3;
+	float:left;
+	font-size: large;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	
+}
+
+
 * {
 	box-sizing: border-box;
 }
