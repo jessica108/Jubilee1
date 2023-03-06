@@ -44,11 +44,11 @@ header ul #contact a
 	float: right;
 }
 
-header ul #school a
+header ul #school 
 {
 	color:#0000a3;
 	float:left;
-	font-size: large;
+	font-size: xx-large;
 	font-family: 'Times New Roman', Times, serif;
 	font-style: italic;
 	
