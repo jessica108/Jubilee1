@@ -36,6 +36,14 @@ body {
   .topnav .icon {
     display: none;
   }
+
+  header li img 
+  {
+    width: 250px;
+    float: left;
+    margin-top: -10px;
+  }
+  
   
     @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
