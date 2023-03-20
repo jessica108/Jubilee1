@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
+
 nav{
     width: 100%px;
     height: 75px;
@@ -12,6 +12,7 @@ nav{
     position: fixed;
     background-image: linear-gradient(#033747, #012733);
 }
+
 nav.logo p{
     font-size: 30px;
     font-weight: bold;
@@ -20,5 +21,10 @@ nav.logo p{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     cursor: pointer;
+}
 
+nav li{
+    display: inline-block;
+    list-style: none;
+    
 }
