@@ -28,3 +28,12 @@ nav li{
     list-style: none;
 
 }
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+
+}
