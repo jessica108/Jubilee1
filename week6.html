@@ -28,7 +28,7 @@
     var home1 = {
           model:  "teakwood",
           bedrooms: "4",
-          color: "gray",
+          color: "gray, royal blue, and white",
         
       describeHome: function ()
       { 
@@ -37,20 +37,33 @@
     };
     
     
-    var flower2 = {
-          type:  "sunflower",
-          color: "white and yellow",
-        climateZone: "4",
+    var home2 = {
+          type:  "alcott",
+          bedrooms:"3"
+          color: "brown , white and tan",
         
-      describeFlower: function ()
+        
+      describeHome: function ()
       { 
-        return ("This flower is a " + this.type + " with color " + this.color + " from climate zone " + this.climateZone + " ");
-      }
+        return ("This house is a " + this.model + " with bedrooms " + this.color + " ");
     };
     
-    /*  declare flower3, flower4, ...  */
+    var home3 = {
+          type:  "andover",
+          bedrooms:"5"
+          color: "misty blue, blue gray, and white",
+        
+        
+      describeHome: function ()
+      { 
+        return ("This house is a " + this.model + " with bedrooms " + this.color + " ");
+    };
+
+
+
+    /*  declare homes ...  */
     
-    function recommend_flower ()
+    function recommend_house ()
     {
     /*   */
     
@@ -61,13 +74,13 @@
     </head>
     <body>
     
-     <p id="florist"> Click on the model to get more information.</p>
+     <p id="houses"> Click on the model to get more information.</p>
      
-     <button onclick="document.getElementById('florist').innerHTML = flower1.describeFlower()">Button for Teakwood home. </button>
+     <button onclick="document.getElementById('houses').innerHTML = home1.describehouses()">Button for Teakwood home. </button>
     
-     <button onclick="document.getElementById('florist').innerHTML = flower2.describeFlower()">Button for Alcott home. </button>
+     <button onclick="document.getElementById('houses').innerHTML = home2.describehouses()">Button for Alcott home. </button>
     
-     <button onclick="document.getElementById('florist').innerHTML = flower3.describeFlower()">Button for the Andover home.</button>
+     <button onclick="document.getElementById('houses').innerHTML = home3.describehouses()">Button for the Andover home.</button>
         var flower1 = {
               type:  "tulip",
               color: "red",
