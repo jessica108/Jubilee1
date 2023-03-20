@@ -5,10 +5,10 @@
 }
 
 nav{
-    width: 100%px;
-    height: 75px;
-    line-height: 75px;
-    padding: 0px 100px;
+    width: 100% px;
+    height: 75 px;
+    line-height: 75 px;
+    padding: 0 px 100 px;
     position: fixed;
     background-image: linear-gradient(#033747, #012733);
 }
@@ -26,5 +26,5 @@ nav.logo p{
 nav li{
     display: inline-block;
     list-style: none;
-    
+
 }
