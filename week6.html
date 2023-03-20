@@ -29,61 +29,7 @@
     </nav>
 </body>
 
-<script>
-var flower1 = {
-	  type:  "tulip",
-	  color: "red",
-    climateZone: 5,
-    
-  describeFlower: function ()
-  { 
-  return ("This flower is a " + this.type + " with color " + this.color + " from climate zone " + this.climateZone + " ");
-  }
-};
 
-
-var flower2 = {
-	  type:  "sunflower",
-	  color: "white and yellow",
-    climateZone: "4",
-    
-  describeFlower: function ()
-  { 
-    return ("This flower is a " + this.type + " with color " + this.color + " from climate zone " + this.climateZone + " ");
-  }
-};
-
-/*  declare flower3, flower4, ...  */
-
-function recommend_flower ()
-{
-/*   */
-
-}
-
-</script>
-
-</head>
-<body>
-
- <p id="florist"> Flower info will go here.</p>
- 
- <button onclick="document.getElementById('florist').innerHTML = flower1.describeFlower()">Button to get my flower info. </button>
-
- <button onclick="document.getElementById('florist').innerHTML = flower2.describeFlower()">Button to get your flower info. </button>
-
- <button onclick="document.getElementById('florist').innerHTML = 
- 'This flower is a sunflower with color white and yellow from climate zone 4'";>Button to get your flower info. </button>
-
-<!-- 
-
-  have a form where people input their flower needs for gardening.
- -->
-
- <!-- 
-
-  button that calls a function that recommends a flower type
-  -->
 
 </body>
 </html>
