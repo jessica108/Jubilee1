@@ -87,7 +87,8 @@ header ul #contact a
       right: 0;
       top: 0;
 
-      .footer {
+      .footer 
+      {
         text-align: center;
         background-color: #aaa;
         font-family: Georgia, 'Times New Roman', Times, serif;
