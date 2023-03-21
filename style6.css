@@ -86,3 +86,12 @@ header ul #contact a
       position: absolute;
       right: 0;
       top: 0;
+
+      .footer {
+        text-align: center;
+        background-color: #aaa;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 24px;
+        justify-content: center;
+        color: black;
+      }
