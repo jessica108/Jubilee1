@@ -23,15 +23,15 @@
 </div>
   
 <h2> Answer the questions to be matched with your new home </h2>
-
+<!--This will describe features of homes-->
 <script>
     var home1 = {
           type:  "teakwood",
           bedrooms: "4",
           color: "gray, royal blue, and white",
         
-      describeHome: function () {
-      
+      describeHome: function () 
+      {
       return ("This house is a " + this.type + " with bedrooms " + this.bedroom + "from this color " + this.color + " ");
       }
     };
@@ -68,13 +68,13 @@
     </head>
     <body>
     
-     <p id="homes"> Click on the model to get more information.</p>
+     <p id="homes"> </p>
      
-     <button onclick="document.getElementById("homes").innerHTML = home1.describehomes()">Button for Teakwood home. </button> <br>
+     <button onclick="document.getElementById('homes').innerHTML = home1.describeHomes()">Button for Teakwood home. </button> <br>
     <br>
-     <button onclick="document.getElementById("homes").innerHTML = home2.describehomes()">Button for Alcott home. </button><br>
+     <button onclick="document.getElementById('homes').innerHTML = home2.describeHomes()">Button for Alcott home. </button><br>
     <br>
-     <button onclick="document.getElementById("homes").innerHTML = home3.describehomes()">Button for the Andover home.</button><br>
+     <button onclick="document.getElementById('homes').innerHTML = home3.describeHomes()">Button for the Andover home.</button><br>
     <br>
      
         
