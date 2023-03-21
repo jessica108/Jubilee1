@@ -13,7 +13,7 @@
     
     <ul>
         <li><img src="willowhouse2.jpg" alt=""></li>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
 		<li><a href="#">About</a></li>
 		<li><a href="mailto:jessica11@usf.edu"> Contact Us</a></li>
 		<li><a href="#">Models</a></li>
@@ -58,7 +58,7 @@
     
       describeHome: function ()
       { 
-        return ("This house is a" + this.type + "with bedrooms " + this.bedrooms + "with these colors" + this.color );
+        return ("This house is a" + this.type + "with bedrooms " + this.bedrooms + "with these colors" + this.color);
     };
 
  
@@ -71,17 +71,17 @@
         <div class="row">
         <div class="column" style="background-color:#aaa;">
         <h2> Teakwood home </h2>
-        <p id="Teakwood"></p> 
+        <p id="teakwood"></p> 
         
-            <button onClick="document.getElementById('Teakwood').innerHTML = home1.describeHome()">Button for Teakwood home. </button> <br> 
+            <button onClick="document.getElementById('teakwood').innerHTML = home1.describeHome()">Click here for information on the Teakwood model. </button> <br> 
         
         </section>
         </div>
 
         <div class="column" style="background-color:#bbb;">
         <h2>Alcott home</h2>
-        <p id="Alcott"></p>
-        <button onclick="document.getElementById('Alcott').innerHTML = home2.describeHome()">Button for Alcott home. </button><br>
+        <p id="alcott"></p>
+        <button onclick="document.getElementById('alcott').innerHTML = home2.describeHome()">Click here for information on the Alcott model. </button><br>
     
         </section>
         </div>
@@ -89,7 +89,7 @@
         <div class="column" style="background-color:#ccc;">
         <h2>Andover Home</h2>
         <p id="Andover"></p>
-        <button onclick="document.getElementById('homes').innerHTML = home3.describeHome()">Button for the Andover home.</button><br>
+        <button onclick="document.getElementById('andover').innerHTML = home3.describeHome()">Click here for information on the Andover model.</button><br>
     
      
         </section>
