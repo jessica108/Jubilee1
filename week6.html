@@ -61,8 +61,7 @@
         return ("This house is a" + this.type + "with bedrooms " + this.bedrooms + "with these colors" + this.color );
     };
 
-
-   
+ 
     </script>
     
     </head>
@@ -81,16 +80,18 @@
 
         <div class="column" style="background-color:#bbb;">
         <h2>Alcott home</h2>
-        <p><button onclick="document.getElementById('homes').innerHTML = home2.describeHome()">Button for Alcott home. </button><br>
-    </p>
+        <p id="Alcott"></p>
+        <button onclick="document.getElementById('Alcott').innerHTML = home2.describeHome()">Button for Alcott home. </button><br>
+    
         </section>
         </div>
 
         <div class="column" style="background-color:#ccc;">
         <h2>Andover Home</h2>
-        <p><button onclick="document.getElementById('homes').innerHTML = home3.describeHome()">Button for the Andover home.</button><br>
+        <p id="Andover"></p>
+        <button onclick="document.getElementById('homes').innerHTML = home3.describeHome()">Button for the Andover home.</button><br>
     
-     </p>
+     
         </section>
         </div>
         </div>
