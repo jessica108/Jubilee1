@@ -51,7 +51,7 @@ this.writeAuthors = function () {
 // Here are global authors//
 
 
-    var temp = new album("Abbey Road","Beatles","1970","Pop","4" , "4", "1", "really great!" );
+    var temp = new author("Abbey Road","Beatles","1970","Pop","4" , "4", "1", "really great!" );
 
 
     
@@ -126,12 +126,12 @@ The rating from experts 1-5 of the album (5 is best)
 <BR>
     
     
-<INPUT TYPE=BUTTON NAME="Enter author" VALUE="Enter author" onClick='temp =  new author( document.getElementById("title").value, document.getElementById("author").value, document.getElementById("year").value,  document.getElementById("genre").value,  document.getElementById("ratingAllMusic").value, document.getElementById("ratingUsers").value, 1, document.getElementById("review").value )' >
+<INPUT TYPE=BUTTON NAME="Enter author" VALUE="Enter author" onClick='temp =  new author( document.getElementById("title").value, document.getElementById("author").value, document.getElementById("year").value,  document.getElementById("genre").value,  document.getElementById("ratingAllAuthors").value, document.getElementById("ratingUsers").value, 1, document.getElementById("review").value )' >
     
 <BR>
 <INPUT TYPE=BUTTON NAME="Add another user rationg" VALUE="Add another user rating" onClick='temp.addRatingUsers(document.getElementById("ratingUsers").value)' >
 <BR>
-<INPUT TYPE=BUTTON NAME="Write album" VALUE="Write album" onClick='temp.writeAlbum()' >
+<INPUT TYPE=BUTTON NAME="Write author" VALUE="Write author" onClick='temp.writeAuthors()' >
 </H3>
  <INPUT TYPE=reset VALUE="Reset form">
      
