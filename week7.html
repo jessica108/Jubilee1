@@ -3,7 +3,7 @@
 <script type="text/javascript">
     
 /*
- * write test to the desc area THIS IS NOT DEBUGGED..DO BIG LOOKOVER!!!
+ * Jessica B
  */
 function writeText(txt)
 {
@@ -51,7 +51,7 @@ this.writeAuthors = function () {
 // Here are global authors//
 
 
-    var temp = new author("Abbey Road","Beatles","1970","Pop","4" , "4", "1", "really great!" );
+    var temp = new author("Stephen King","The Stand","1978","Horror","4" , "4", "1", "really great!" );
 
 
     
@@ -59,7 +59,7 @@ this.writeAuthors = function () {
 </script>
 
 <style>
-  body {background-color: #E9DAC4)}
+  body {background-color: #eeede7)}
   h1   {color:#6D3D38}
   h2   {color:#6D3D38}
   h3   {color:#6D3D38}
@@ -80,16 +80,16 @@ this.writeAuthors = function () {
     </i>
     
 <FORM NAME="AlbumAuthor">
-<P>
+<p>
 
-<H3>
-<BR>
+<h3>
+<br>
 Enter the name of your favorite author<input  NAME="title" id="title" >
 <br>
 Name of the book:<input TYPE=text NAME="author" id="author" VALUE=" Enter author">
 <br>
 
-What year?<INPUT TYPE=text NAME="year" id="year">
+What year?<input TYPE=text NAME="year" id="year">
 <br>
 Please select the genre
     <SELECT NAME="genre" ID="genre" >    
@@ -97,7 +97,9 @@ Please select the genre
       <OPTION VALUE="mystery">mystery
       <OPTION VALUE="nonfiction">nonfiction
       <OPTION VALUE="fiction">fiction
-      <OPTION VALUE="biography">biography</OPTION>
+      <OPTION VALUE="biography">biography
+      <OPTION VALUE="horror">horror</OPTION>
+      </OPTION>
      </SELECT>
 <br>
 <br>
@@ -122,17 +124,17 @@ The rating from experts 1-5 of the album (5 is best)
      </SELECT>
 <br>
 <br>
- Enter your review <BR> <TEXTAREA TYPE=text NAME="review" ID="review" VALUE="review " ROWS=2 COLS=45 WRAP=virtual></TEXTAREA>
+ Enter your review <br> <TEXTAREA TYPE=text NAME="review" ID="review" VALUE="review " ROWS=2 COLS=45 WRAP=virtual></TEXTAREA>
 <BR>
     
     
 <INPUT TYPE=BUTTON NAME="Enter author" VALUE="Enter author" onClick='temp =  new author( document.getElementById("title").value, document.getElementById("author").value, document.getElementById("year").value,  document.getElementById("genre").value,  document.getElementById("ratingAllAuthors").value, document.getElementById("ratingUsers").value, 1, document.getElementById("review").value )' >
     
-<BR>
+<br >
 <INPUT TYPE=BUTTON NAME="Add another user rationg" VALUE="Add another user rating" onClick='temp.addRatingUsers(document.getElementById("ratingUsers").value)' >
-<BR>
+<br>
 <INPUT TYPE=BUTTON NAME="Write author" VALUE="Write author" onClick='temp.writeAuthors()' >
-</H3>
+</h3>
  <INPUT TYPE=reset VALUE="Reset form">
      
 </body>
