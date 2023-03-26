@@ -68,10 +68,8 @@ this.writeAuthors = function () {
 <body>
 <BR>
 <img src="bookwithcoffee.jpg" alt="album-artwork-ideas500x500-30.jpg" height="200" width="200"> <br>
-<img src="130909-arcade-fire-rekletor-album-cover_0.jpg" alt="130909-arcade-fire-rekletor-album-cover_0.jpg" height="100" width="100">
-<img src="aaliyah-posthumous-album-cover-400x400.jpg" alt="aaliyah-posthumous-album-cover-400x400.jpg" height="100" width="100">
-<img src="o-BOB-DYLAN-ALBUM-ARTWORK-570.jpg" alt="o-BOB-DYLAN-ALBUM-ARTWORK-570.jpg" height="100" width="100">
-<BR>  
+
+<br>  
 <h1 style="align-items: center;"> Favorite author</h1>
 
     <h2>   
@@ -115,7 +113,7 @@ Your rating from 1-5 of the author (5 is best)
     <br>
     <br>
 The rating from experts 1-5 of the album (5 is best)
-    <SELECT NAME="ratingAllAuthor" ID="ratingAllAuthor ">    
+    <SELECT NAME="ratingAllAuthors" ID="ratingAllAuthors ">    
       <OPTION VALUE= 1> 1
       <OPTION VALUE= 2> 2
       <OPTION VALUE= 3> 3
@@ -133,7 +131,7 @@ The rating from experts 1-5 of the album (5 is best)
 <br >
 <INPUT TYPE=BUTTON NAME="Add another user rationg" VALUE="Add another user rating" onClick='temp.addRatingUsers(document.getElementById("ratingUsers").value)' >
 <br>
-<INPUT TYPE=BUTTON NAME="Write author" VALUE="Write author" onClick='temp.writeAuthors()' >
+<INPUT TYPE=BUTTON NAME="Write author" VALUE="Write author" onClick='temp.writeAuthor()' >
 </h3>
  <INPUT TYPE=reset VALUE="Reset form">
      
