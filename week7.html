@@ -72,7 +72,7 @@ this.writeAuthors = function () {
 <img src="aaliyah-posthumous-album-cover-400x400.jpg" alt="aaliyah-posthumous-album-cover-400x400.jpg" height="100" width="100">
 <img src="o-BOB-DYLAN-ALBUM-ARTWORK-570.jpg" alt="o-BOB-DYLAN-ALBUM-ARTWORK-570.jpg" height="100" width="100">
 <BR>  
-<h1> Let's add an album</h1>
+<h1> Favorite author</h1>
 
     <h2>   
     <i> 
@@ -97,8 +97,11 @@ Please select the genre
       <OPTION VALUE="mystery">mystery
       <OPTION VALUE="nonfiction">nonfiction
       <OPTION VALUE="fiction">fiction
+      <OPTION VALUE="biography">biography</OPTION>
      </SELECT>
-<BR>
+<br>
+<br>
+
 Your rating from 1-5 of the author (5 is best)
     <SELECT NAME="ratingUsers"  ID="ratingUsers" >    
       <OPTION VALUE= 1> 1
@@ -107,7 +110,8 @@ Your rating from 1-5 of the author (5 is best)
       <OPTION VALUE= 4 >4
       <OPTION VALUE= 5 >5
      </SELECT>
-    <BR>
+    <br>
+    <br>
 The rating from experts 1-5 of the album (5 is best)
     <SELECT NAME="ratingAllAuthor" ID="ratingAllAuthor ">    
       <OPTION VALUE= 1> 1
@@ -117,11 +121,12 @@ The rating from experts 1-5 of the album (5 is best)
       <OPTION VALUE= 5 >5
      </SELECT>
 <br>
+<br>
  Enter your review <BR> <TEXTAREA TYPE=text NAME="review" ID="review" VALUE="review " ROWS=2 COLS=45 WRAP=virtual></TEXTAREA>
 <BR>
     
     
-<INPUT TYPE=BUTTON NAME="Enter album" VALUE="Enter album" onClick='temp =  new album( document.getElementById("title").value, document.getElementById("artist").value, document.getElementById("year").value,  document.getElementById("genre").value,  document.getElementById("ratingAllMusic").value, document.getElementById("ratingUsers").value, 1, document.getElementById("review").value )' >
+<INPUT TYPE=BUTTON NAME="Enter author" VALUE="Enter author" onClick='temp =  new author( document.getElementById("title").value, document.getElementById("author").value, document.getElementById("year").value,  document.getElementById("genre").value,  document.getElementById("ratingAllMusic").value, document.getElementById("ratingUsers").value, 1, document.getElementById("review").value )' >
     
 <BR>
 <INPUT TYPE=BUTTON NAME="Add another user rationg" VALUE="Add another user rating" onClick='temp.addRatingUsers(document.getElementById("ratingUsers").value)' >
