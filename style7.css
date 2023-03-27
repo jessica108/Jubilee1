@@ -19,7 +19,7 @@
   nav {
     float: left;
     width: 30%;
-    height: 700px; 
+    height: 900px; 
     background: #DDAFB0;
     padding: 20px;
   }
@@ -35,7 +35,7 @@
     padding: 20px;
     width: 70%;
     background-color: #Ffffff;
-    height: 700px;  
+    height: 900px;  
   }
   
   /* Clear floats after the columns */
