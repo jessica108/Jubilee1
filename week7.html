@@ -14,12 +14,12 @@
         document.getElementById("desc").innerHTML=txt;
         }
             
-        function author(name, title, year, genre, ratingAllAuthors, ratingUsers, numberRaters, review) {
+        function author(name, title, year, genre, ratingAllAuthor, ratingUsers, numberRaters, review) {
             this.name = name;
             this.title = title;
             this.year = year;
             this.genre = genre;
-            this.ratingAllAuthors = ratingAllAuthors;
+            this.ratingAllAuthor = ratingAllAuthor;
             this.ratingUsers = ratingUsers;
             this.numberRaters = numberRaters;
             this.review = review;
@@ -37,12 +37,13 @@
         
             /* write the author info to the web page */
             
-        this.writeAuthors = function () { 
+        this.writeAuthor = function () { 
             var s = this.title + " " +
             this.name + " " +
             this.title + " " +
+            this.year + " " +
             this.genre + " " +
-            this.ratingAllAuthors + " " +
+            this.ratingAllAuthor + " " +
             this.ratingUsers + " " +
             this.numberRaters + " " +
             this.review ;
@@ -137,13 +138,13 @@ footer {
                 
 
                 <article> 
-            <FORM NAME="AlbumAuthor">
+            <FORM NAME="FavoriteAuthor">
 
             <h3>
             <br>
             Enter the name of your favorite author<input  NAME="title" id="title" >
             <br>
-            Name of the book:<input TYPE=text NAME="author" id="author" VALUE=" Enter book">
+            Enter the name of the book:<input TYPE=text NAME="author" id="author" VALUE=" Enter book">
             <br>
             
             What year?<input TYPE=text NAME="year" id="year">
@@ -156,7 +157,6 @@ footer {
                   <OPTION VALUE="fiction">fiction
                   <OPTION VALUE="biography">biography
                   <OPTION VALUE="horror">horror
-                  </OPTION>
                  </SELECT>
             <br>            
             
@@ -170,8 +170,8 @@ footer {
                  </SELECT>
                 <br>
                 
-            The rating from experts 1-5 of the album (5 is best)
-                <SELECT NAME="ratingAllAuthors" ID="ratingAllAuthors ">    
+            The rating from experts 1-5 of the book (5 is best)
+                <SELECT NAME="ratingAllAuthor" ID="ratingAllAuthor ">    
                   <OPTION VALUE= 1> 1
                   <OPTION VALUE= 2> 2
                   <OPTION VALUE= 3> 3
@@ -192,6 +192,7 @@ footer {
             <INPUT TYPE=BUTTON NAME="Write author" VALUE="Write author" onClick='temp.writeAuthor()' >
             </h3>
              <INPUT TYPE=reset VALUE="Reset form">
+            
 </article>
 </section>
  <br>
