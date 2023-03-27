@@ -134,10 +134,11 @@ footer {
             </header>
 
             <section>
-                <nav> <p id="desc">  Enter the name of your favorite author <img src="bookwithcoffee.jpg" alt="" width="200px" height="200px"></p></nav>
+                <nav>  <img src="bookwithcoffee.jpg" alt="" width="200px" height="200px"></nav>
                 
 
                 <article> 
+            <h2> Who is your favorite author? <p id="desc">  Enter the name of your favorite author </p></h2>
             <FORM NAME="FavoriteAuthor">
 
             <h3>
@@ -184,7 +185,7 @@ footer {
             <BR>
                 
                 
-            <INPUT TYPE=BUTTON NAME="Enter author" VALUE="Enter author" onClick='temp =  new author( document.getElementById("title").value, document.getElementById("author").value, document.getElementById("year").value,  document.getElementById("genre").value,  document.getElementById("ratingAllAuthors").value, document.getElementById("ratingUsers").value, 1, document.getElementById("review").value )' >
+            <INPUT TYPE=BUTTON NAME="Enter author" VALUE="Enter author" onClick='temp =  new author( document.getElementById("name").value, document.getElementById("title").value, document.getElementById("year").value,  document.getElementById("genre").value,  document.getElementById("ratingAllAuthor").value, document.getElementById("ratingUsers").value, 1, document.getElementById("review").value )' >
                 
             <br >
             <INPUT TYPE=BUTTON NAME="Add another user rationg" VALUE="Add another user rating" onClick='temp.addRatingUsers(document.getElementById("ratingUsers").value)' >
