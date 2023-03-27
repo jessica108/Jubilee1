@@ -36,7 +36,7 @@
             /* write the author info to the web page */
             
         this.writeAuthor = function () { 
-            var s = this.author + " " +
+            var s = this.author  + " " +
             this.name + " " +
             this.title + " " +
             this.year + " " +
@@ -141,9 +141,10 @@ footer {
 
             <h3>
             <br>
-            Enter the name of your favorite author<input  NAME="title" id="title" >
+            Enter the name of your favorite author <input TYPE=text NAME="author" id="author" VALUE=" Enter book">
             <br>
-            Enter the name of the book:<input TYPE=text NAME="author" id="author" VALUE=" Enter book">
+            Enter the title of the book:<input  NAME="title" id="title" >
+            
             <br>
             
             What year?<input TYPE=text NAME="year" id="year">
