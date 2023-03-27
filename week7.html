@@ -24,8 +24,7 @@
             this.numberRaters = numberRaters;
             this.review = review;
         
-                     
-            
+                               
             /* method to add another user rating . Would add it to the weighted average. */
             this.addRatingUsers = function (rating) {
               
@@ -33,12 +32,11 @@
                 ++this.numberRaters;
                 this.ratingUsers = (this.ratingUsers + rating)   /       this.numberRaters;
             }
-            
-        
+                    
             /* write the author info to the web page */
             
         this.writeAuthor = function () { 
-            var s = this.title + " " +
+            var s = this.author + " " +
             this.name + " " +
             this.title + " " +
             this.year + " " +
