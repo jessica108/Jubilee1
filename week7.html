@@ -73,12 +73,12 @@
                 <article> 
             <h2> Who is your favorite author? <p id="desc">  Your information will be shown here </p></h2>
             <FORM NAME="FavoriteAuthor">
- 
+                    <!--form-->
             <h3>
             <br>
             Enter the name of your favorite author <input TYPE=text NAME="author" id="author">
             <br>
-            Enter the title of your favorite book BY that author :<input  NAME="title" id="title" value="Enter title">
+            Enter the title of your favorite book by that author :<input  NAME="title" id="title" value="Enter title">
             <br>
             What year was the book published?<input TYPE=text NAME="year" id="year">
             <br>
@@ -116,11 +116,11 @@
              Enter your review <br> <TEXTAREA TYPE=text NAME="review" ID="review" VALUE="review " ROWS=2 COLS=45 WRAP=virtual></TEXTAREA>
             <BR>
                 
-                
+                <!--input button info-->
             <INPUT TYPE=BUTTON NAME="Enter author" VALUE="Enter author" onClick='temp =  new author( document.getElementById("name").value, document.getElementById("title").value, document.getElementById("year").value,  document.getElementById("genre").value,  document.getElementById("ratingAllAuthor").value, document.getElementById("ratingUsers").value, 1, document.getElementById("review").value )' >
                 
             <br >
-            <INPUT TYPE=BUTTON NAME="Add another user rationg" VALUE="Add another user rating" onClick='temp.addRatingUsers(document.getElementById("ratingUsers").value)' >
+            <INPUT TYPE=BUTTON NAME="Add another user rating" VALUE="Add another user rating" onClick='temp.addRatingUsers(document.getElementById("ratingUsers").value)' >
             <br>
             <INPUT TYPE=BUTTON NAME="Write author" VALUE="Write author" onClick='temp.writeAuthor()' >
             </h3>
@@ -133,7 +133,7 @@
  
  
   
- 
+ <!--footer-->
 <footer>
     <p> Copyright &copy; 2023,  Jessica Brown </footer>
     </body> </p>
