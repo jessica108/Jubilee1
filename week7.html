@@ -26,14 +26,8 @@
             this.numberRaters = numberRaters;
             this.review = review;
         
-                               
-            /* method to add another user rating . Would add it to the weighted average. */
-            this.addRatingUsers = function (rating) {
-              
-                this.ratingUsers = this.ratingUsers * this.numberRaters;
-                ++this.numberRaters;
-                this.ratingUsers = (this.ratingUsers + rating)   /       this.numberRaters;
-            }
+        }                   
+            
                     
             /* write the author info to the web page */
             
@@ -94,7 +88,7 @@
             <br>            
             
             Your rating from 1-5 of the author (5 is best)
-                <SELECT NAME="ratingUsers"  ID="ratingUsers" >    
+                <SELECT NAME="ratingAllAuthor"  ID="ratingAllAuthor" >    
                   <OPTION VALUE= 1> 1
                   <OPTION VALUE= 2> 2
                   <OPTION VALUE= 3> 3
@@ -120,9 +114,7 @@
             <INPUT TYPE=BUTTON NAME="Enter author" VALUE="Enter author" onClick='temp =  new author( document.getElementById("name").value, document.getElementById("title").value, document.getElementById("year").value,  document.getElementById("genre").value,  document.getElementById("ratingAllAuthor").value, document.getElementById("ratingUsers").value, 1, document.getElementById("review").value )' >
                 
             <br >
-            <INPUT TYPE=BUTTON NAME="Add another user rating" VALUE="Add another user rating" onClick='temp.addRatingUsers(document.getElementById("ratingUsers").value)' >
-            <br>
-            <INPUT TYPE=BUTTON NAME="Write author" VALUE="Write author" onClick='temp.writeAuthor()' >
+               <INPUT TYPE=BUTTON NAME="Write author" VALUE="Write author" onClick='temp.writeAuthor()' >
             </h3>
              <INPUT TYPE=reset VALUE="Reset form">
             
