@@ -9,74 +9,59 @@
 
      <!--This is the navigation header -->
 <header>
-    
-    <ul>
-        <li><img src="willowhouse2.jpg" alt=""></li>
-        <li><a href="index.html">Home</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="mailto:jessica11@usf.edu"> Contact Us</a></li>
-		<li><a href="#">Models</a></li>
-  	</ul>
-    <!--End of nav bar-->
-    </header>
-</div>
-  
-<h2> Interested in one of our models? </h2>
-<!--This will describe features of homes-->
-<script>
-    var home1 = {
-        type: "teakwood",
-        bedrooms: "4",
-        color: "gray, royal blue, and white",
+    <script>
+        var home1 = {
+            type: "teakwood",
+            bedrooms: "4",
+            color: "gray, royal blue, and white",
 
-        describeHome: function() {
-            return ("This house is a " + this.type + " with " + this.bedrooms + " bedrooms and these colors: " + this.color + ".");
-        }
-    };
+            describeHome: function() {
+                return ("This house is a " + this.type + " with " + this.bedrooms + " bedrooms and these colors: " + this.color + ".");
+            }
+        };
 
-    var home2 = {
-        type: "alcott",
-        bedrooms: "3",
-        color: "brown, white and tan",
+        var home2 = {
+            type: "alcott",
+            bedrooms: "3",
+            color: "brown, white and tan",
 
-        describeHome: function() {
-            return ("This house is a " + this.type + " with " + this.bedrooms + " bedrooms and these colors: " + this.color + ".");
-        }
-    };
+            describeHome: function() {
+                return ("This house is a " + this.type + " with " + this.bedrooms + " bedrooms and these colors: " + this.color + ".");
+            }
+        };
 
-    var home3 = {
-        type: "andover",
-        bedrooms: "5",
-        color: "misty blue, blue gray, and white",
+        var home3 = {
+            type: "andover",
+            bedrooms: "5",
+            color: "misty blue, blue gray, and white",
 
-        describeHome: function() {
-            return ("This house is a " + this.type + " with " + this.bedrooms + " bedrooms and these colors: " + this.color + ".");
-        }
-    };
-</script>
+            describeHome: function() {
+                return ("This house is a " + this.type + " with " + this.bedrooms + " bedrooms and these colors: " + this.color + ".");
+            }
+        };
+    </script>
 </div>
 
       
-        <!--Info for house columns-->
-    <div class="row">
-        <div class="column" style="background-color:#aaa;">
-            <h2>Teakwood home</h2>
-            <p id="teakwood"></p> 
-            <button onClick="document.getElementById('teakwood').innerHTML = home1.describeHome()">Click here for information on the Teakwood model.</button><br>
-        </div>
-        
-        <div class="column" style="background-color:#bbb;">
-            <h2>Alcott home</h2>
-            <p id="alcott"></p>
-            <button onclick="document.getElementById('alcott').innerHTML = home2.describeHome()">Click here for information on the Alcott model.</button><br>
-        </div>
+<!--Info for house columns-->
+<div class="row">
+    <div class="column" style="background-color:#aaa;">
+        <h2>Teakwood home</h2>
+        <p id="teakwood"></p> 
+        <button onClick="document.getElementById('teakwood').innerHTML = home1.describeHome()">Click here for information on the Teakwood model.</button><br>
+    </div>
+    
+    <div class="column" style="background-color:#bbb;">
+        <h2>Alcott home</h2>
+        <p id="alcott"></p>
+        <button onclick="document.getElementById('alcott').innerHTML = home2.describeHome()">Click here for information on the Alcott model.</button><br>
+    </div>
 
-        <div class="column" style="background-color:#ccc;">
-            <h2>Andover Home</h2>
-            <p id="andover"></p>
-            <button onclick="document.getElementById('andover').innerHTML = home3.describeHome()">Click here for information on the Andover model. </button> 
-     
-        </section>
+    <div class="column" style="background-color:#ccc;">
+        <h2>Andover Home</h2>
+        <p id="andover"></p>
+        <button onclick="document.getElementById('andover').innerHTML = home3.describeHome()">Click here for information on the Andover model. </button>
+    
         </div>
         </div>
 
