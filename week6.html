@@ -25,71 +25,56 @@
 <!--This will describe features of homes-->
 <script>
     var home1 = {
-          type:  "teakwood",
-          bedrooms: "4",
-          color: "gray, royal blue, and white",
-        
-      describeHome: function () 
-      {
-      return ("This house is a" + this.type + "with bedrooms " + this.bedrooms + "with these colors" + this.color );
-      }
+        type: "teakwood",
+        bedrooms: "4",
+        color: "gray, royal blue, and white",
+
+        describeHome: function() {
+            return ("This house is a " + this.type + " with " + this.bedrooms + " bedrooms and these colors: " + this.color + ".");
+        }
     };
-    
-    
+
     var home2 = {
-          type:  "alcott",
-          bedrooms:"3",
-          color: "brown , white and tan",
-        
-        
-      describeHome: function ()
-      { 
+        type: "alcott",
+        bedrooms: "3",
+        color: "brown, white and tan",
 
-        return ("This house is a " + this.type + "with bedrooms " + this.bedrooms + "with these colors" + this.color );
-      }
+        describeHome: function() {
+            return ("This house is a " + this.type + " with " + this.bedrooms + " bedrooms and these colors: " + this.color + ".");
+        }
     };
-    
+
     var home3 = {
-          type:  "andover",
-          bedrooms:"5",
-          color: "misty blue, blue gray, and white",
-        
-    
-      describeHome: function ()
-      { 
-        return ("This house is a" + this.type + "with bedrooms " + this.bedrooms + "with these colors" + this.color);
+        type: "andover",
+        bedrooms: "5",
+        color: "misty blue, blue gray, and white",
+
+        describeHome: function() {
+            return ("This house is a " + this.type + " with " + this.bedrooms + " bedrooms and these colors: " + this.color + ".");
+        }
     };
+</script>
+</div>
 
- 
-    </script>
-    
-    </head>
-    <body>
-    <!--Info for house columns-->
-
-        <div class="row">
+      
+        <!--Info for house columns-->
+    <div class="row">
         <div class="column" style="background-color:#aaa;">
-        <h2> Teakwood home </h2>
-        <p id="teakwood"></p> 
-        
-            <button onClick="document.getElementById('teakwood').innerHTML = home1.describeHome()">Click here for information on the Teakwood model. </button> <br> 
-        
-        </section>
+            <h2>Teakwood home</h2>
+            <p id="teakwood"></p> 
+            <button onClick="document.getElementById('teakwood').innerHTML = home1.describeHome()">Click here for information on the Teakwood model.</button><br>
         </div>
-
+        
         <div class="column" style="background-color:#bbb;">
-        <h2>Alcott home</h2>
-        <p id="alcott"></p>
-        <button onclick="document.getElementById('alcott').innerHTML = home2.describeHome()">Click here for information on the Alcott model. </button><br>
-    
-        </section>
+            <h2>Alcott home</h2>
+            <p id="alcott"></p>
+            <button onclick="document.getElementById('alcott').innerHTML = home2.describeHome()">Click here for information on the Alcott model.</button><br>
         </div>
 
         <div class="column" style="background-color:#ccc;">
-        <h2>Andover Home</h2>
-        <p id="Andover"></p>
-        <button onclick="document.getElementById('andover').innerHTML = home3.describeHome()">Click here for information on the Andover model.</button><br>
-    
+            <h2>Andover Home</h2>
+            <p id="andover"></p>
+            <button onclick="document.getElementById('andover').innerHTML = home3.describeHome()">Click here for information on the Andover model. </button> 
      
         </section>
         </div>
@@ -109,7 +94,7 @@
        <br>
        <br>
        <br>
-        
+            <!--footer-->
             
         <footer> <footer style="height: 30px; background-color: #aaa; font-family: Georgia, 'Times New Roman', Times, serif; align-content: center"> <center>Copyright &copy; 2023,  Jessica Brown </center></footer>
 </body>
