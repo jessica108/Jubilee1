@@ -11,18 +11,19 @@
    /*          0            1           2           3           4           */
 var snacks= ["cookies","cupcakes", "juice boxes", "pizza","animal crackers"];
 
-function showSnacks ()
-{
-
-    document.getElementById("demo").innerHTML= "These items have already been purchased" + snacks;
-}
-function addSnacks()
-{
-    //snacks[snacks.length]= prompt("What item are your bringing?");
-    snacks.push(prompt("What item are your bringing?"));
-showSnacks();
+function addSnacks() {
+  snacks.push(prompt("What item are you bringing?"));
+  showSnacks();
 }
 
+function removeitemfromlist() {
+  alert(snacks.shift() + " your item has been removed");
+  showSnacks();
+}
+
+function showSnacks (){
+    document.getElementById("snacks").innerHTML= "These items have already been purchased" + snacks.join(",");
+}
 
 function removeitemfromlist()
 {
@@ -72,7 +73,7 @@ showSnacks();
         </script>Some content..</p>
     </div>
     
-
+<p id="snacks"></p>
 
 <br>
 <br>
