@@ -21,9 +21,12 @@ function addStudent ()
 </script>
 
 <form id="sign-up">
-   Write your first and last name <input type="text" placeholder="your name">
+   Write your first and last name <input type="text" id="name" placeholder="your name" required>
 
-    Write the name of your child <input type="text" placeholder="childs name">
+    Write the name of your child <input type="text" id="childsname" placeholder="childs name" required>
+
+    <input type="email" id="email" required>
+    <input type="submit" value="Register">
 </form>
 <!--button to submit-->
 <button type="button" class="sign-up"> Sign up</button>
