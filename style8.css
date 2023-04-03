@@ -7,9 +7,16 @@ body {
 }
 
 .header {
-  overflow: hidden;
-  background-color: #1A83CC;
-  padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1A83CC;
+    color: white;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    z-index: 1;
 }
 
 .header a {
@@ -34,7 +41,7 @@ body {
 }
 
 .header a.active {
-  background-color: #37BEB0;
+  background-color: #e1e1e1;
   color: white;
 }
 
