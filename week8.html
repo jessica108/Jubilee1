@@ -7,14 +7,20 @@
 <!--link to stylesheet-->
 <link rel="stylesheet" href="style8.css" type="text/css">
 <script type="text/javascript">
-   /* array of students in class*/
-var students= ["Tyler","Maggie", "Izzy", "Tiffany","Christina", "Ben", "Ava", "Luca"]
-function showStudents ()
+   /* array of items parents are bringing*/
+var snacks= ["cookies","cupcakes", "juice boxes", "pizza","animal crackers"]
+
+function showSnacks ()
+
 {
-    document.getElementById("demo").innerHTML = "These are the students receiving newsletters" + students;
+    //snacks[snacks.length]= prompt("What item are your bringing?");
+    snacks.push(prompt"What item are your bringing?"showSnacks);
 }
 
-function addStudent ()
+/* function to see if someone has already signed up for that item*/
+
+
+
 {
 
 }
@@ -28,7 +34,7 @@ function addStudent ()
     Email address <input type="email" id="email" placeholder="email" required> <br>
 
     Item you are bringing <input type="text" id="item" placeholder="item" required> <br>
-    <input type="submit" value="Register">
+    <input type="submit" value="Signup">
 </form>
 <script>
     var form = document.getElementById('form')
