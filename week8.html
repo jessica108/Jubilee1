@@ -16,6 +16,14 @@ function addSnacks() {
   showSnacks();
 }
 
+function addSnacks() {
+  var snack = prompt("What item are you bringing?");
+  snacks.push(snack);
+  showSnacks();
+}
+
+
+
 function removeitemfromlist() {
   alert(snacks.shift() + " your item has been removed");
   showSnacks();
