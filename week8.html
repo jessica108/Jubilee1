@@ -21,12 +21,21 @@ function showSnacks ()
 
 
 
-{
-
-}
 </script>
+</head>
 
-<form id="form">
+<body onload="showSnacks()">
+
+
+
+<!--input for snacks-->
+        <input type= "button"value="showSnacks"onClick ="showSnacks()" >
+<input type= "button"value="additem"onClick ="additem()" >
+<input type= "button"value="Remove item from list"onClick =" removeitemfromlist()" >
+</body>
+
+
+    <form id="form">
    Write your first and last name <input type="text" id="name" placeholder="your name" required> <br>
 
     Write the name of your child <input type="text" id="childsname" placeholder="childs name" required> <br>
