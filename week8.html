@@ -11,31 +11,21 @@
    /*          0            1           2           3           4           */
 var snacks= ["cookies","cupcakes", "juice boxes", "pizza","animal crackers"];
 
-function addSnacks() {
-  snacks.push(prompt("What item are you bringing?"));
-  showSnacks();
-}
-
+/* functions to add snacks to the page */
 function addSnacks() {
   var snack = prompt("What item are you bringing?");
   snacks.push(snack);
   showSnacks();
 }
-
-
-
 function removeitemfromlist() {
   alert(snacks.shift() + " your item has been removed");
   showSnacks();
 }
-
 function showSnacks (){
     document.getElementById("snacks").innerHTML= "These items have already been purchased" +  snacks.join(",");
 }
-
 function removeitemfromlist()
 {
-
 alert(snacks.shift() + " your item has been removed") ;
 showSnacks();
 }
@@ -48,7 +38,7 @@ showSnacks();
 <br>
 
 <!--    <input type= "button"value="showSnacks"onClick ="showSnacks()" >-->
-
+<!--Buttons for adding snacks-->
 <input type= "button"value="addSnacks"onClick ="addSnacks()" >
 <input type= "button"value="Remove item from list"onClick =" removeitemfromlist()" >
 <p id="snacks"></p>   
@@ -113,6 +103,6 @@ showSnacks();
 <br>
 <br>
 
-<footer style="height: 30px; background-color: #1A83CC; font-family: Georgia, 'Times New Roman', Times, serif; align-content: center"> <center>Copyright &copy; 2023,  Jessica Brown </
-
-
+<footer style="height: 30px; background-color: #1A83CC; font-family: Georgia, 'Times New Roman', Times, serif; align-content: center"> <center>Copyright &copy; 2023,  Jessica Brown </center> </footer>
+</body>
+</html>
