@@ -5,25 +5,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--link to stylesheet-->
-<link rel="stylesheet" href="style8.css">
-    <h1> Newsletter sign-up </h1>
-        <h2></h2> These students in the classroom are already receiving newsletters. </h1>
-<p id="demo"></p>
-
+<link rel="stylesheet" href="style8.css" type="text/css">
 <script type="text/javascript">
-const students = [];
-students[0]= "Tyler";
-students[1]= "Maggie";
-students[2]= "Izzy";
-students[3]= "Tiffany";
-students[4]= "Christina";
-students[5]= "Ben";
-students[6]= "Luca";
-students[7]= "Matthew";
-students[8]= "Ava";
-document.getElementById("demo").innerHTML = students;
-</script>
+   /* array of students in class*/
+var students= ["Tyler","Maggie", "Izzy", "Tiffany","Christina", "Ben", "Ava", "Luca"]
+function showStudents ()
+{
+    document.getElementById("demo").innerHTML = "These are the students receiving newsletters" + students;
+}
 
+function addStudent ()
+{
+    
+}
+</script>
+<p id="demo">To add your name to the newsletter list, add your information below.</p>
+<h1> Newsletter sign-up </h1>
+        <h2></h2> These students in the classroom are already receiving newsletters. </h1>
 </body>
 </html>
 
