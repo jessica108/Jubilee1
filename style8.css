@@ -73,11 +73,10 @@ body {
 }
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 5px;
   background-color: #055C9D;
   color: white;
   position: absolute;
   bottom: 0;
   height: 40px;
   width: 100%;
-  
