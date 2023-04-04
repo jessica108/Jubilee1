@@ -8,7 +8,7 @@ body {
 
 .header {
     overflow: hidden;
-    background-color: #636059;
+    background-color: #AE8781;
     padding: 20px 10px;
 }
 
@@ -74,7 +74,7 @@ body {
 footer {
   text-align: center;
   padding: 5px;
-  background-color: #636059;
+  background-color: #AE8781;
   color: white;
   position: absolute;
   bottom: 0;
