@@ -27,7 +27,7 @@ function removeitemfromlist() {
   showSnacks();
 }
 function showSnacks (){
-    document.getElementById("snacks").innerHTML= "These items have already been purchased" +  snacks.join(",");
+    document.getElementById("snacks").innerHTML= "These items have already been purchased:" +  snacks.join(",");
 }
 function removeitemfromlist()
 {
@@ -39,8 +39,7 @@ showSnacks();
 
 <body onload="showSnacks()">
 
-
-    <br>
+   <br>
 <header>
     <div class="header">
       <a href="#default" class="logo">Mrs.Brown's End of Year Information </a>
