@@ -65,7 +65,37 @@ showSnacks();
     <div class="row">
   <div class="column" style="background-color:#aaa;">
     <h2>Celebration food items</h2>
-    <p>See above to sign up to donate food to the party.</p>
+    <p>See above to sign up to donate food to the party.
+      <script type="text/javascript">
+    
+
+
+        /* array of items parents are bringing*/
+        /*          0            1           2           3           4           */
+     var snacks= ["cookies","cupcakes", "juice boxes", "pizza","animal crackers"];
+     
+     
+     
+     /* functions to add snacks to the page */
+     function addSnacks() {
+       var snack = prompt("What item are you bringing?");
+       snacks.push(snack);
+       showSnacks();
+     }
+     function removeitemfromlist() {
+       alert(snacks.shift() + " your item has been removed");
+       showSnacks();
+     }
+     function showSnacks (){
+         document.getElementById("snacks").innerHTML= "These items have already been purchased" +  snacks.join(",");
+     }
+     function removeitemfromlist()
+     {
+     alert(snacks.shift() + " your item has been removed") ;
+     showSnacks();
+     }
+     </script>
+    </p>
   </div>
   <div class="column" style="background-color:#bbb;">
     <h2>End of Year Celebration Information </h2>
