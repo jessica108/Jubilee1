@@ -71,3 +71,8 @@ body {
   display: table;
   clear: both;
 }
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #055C9D;
+  color: white;
