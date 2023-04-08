@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Loops </title>
+    <style></style>
+</head>
+
+<body>
+    <div id="output_div"></div>
+    <script>
+        //declare variables 
+        var outputHTML = "";
+        var genres = ["biography", "contemporary fiction", "fairytale", "fantasy", "informational"];
+
+        //loop over array and make string
+        outputHTML += "<table>";
+        for (var i = 0; i < genres.length; i++) {
+            outputHTML += "<tr>";
+            outputHTML +=  "<td>" + genres[i] + "</td>";
+            outputHTML += "</tr>";
+        }
+             outputHTML += "</tables>";
+        //output
+        document.getElementById("output_div").innerHTML= outputHTML;
+    </script>
+</body>
+</html>
