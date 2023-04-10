@@ -15,3 +15,23 @@
         background-attachment: fixed;
         background-size: cover;
       }
+
+      /*responsive page*/
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    /*footer */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #1167b1;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+  
