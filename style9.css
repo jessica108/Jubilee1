@@ -37,9 +37,9 @@ footer {
 }
 
 div {
-    background-color: lightgrey;
+    background-color:#1167b1;
     width: 300px;
-    border: 15px solid green;
+    border: 15px solid black;
     padding: 50px;
     margin: 190px;
 }
