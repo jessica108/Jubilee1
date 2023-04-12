@@ -6,17 +6,17 @@
 <link href="finalproject1.css" type="text/css" link rel="stylesheet">
   <header></header>
 
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body>
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="#examples">Examples</a>
+<!-- The sidebar -->
+<div class="sidebar">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
   <a href="#contact">Contact</a>
-  <a href="#content">Content</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+  <a href="#about">About</a>
+</div>
+
+<!-- Page content -->
+<div class="content">
+  ..
 </div>
 <br>
 <div style="padding: left 16px;"> 
@@ -24,25 +24,7 @@
 <h1> Responsive Webpage Example </h1> 
 </div>
 
-<script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-  </script>
-  
-   <div class="flex-container">
-    <div class="flex-item-left"> <img src="companylogo.jpg" alt="" width="400 px" height="400 px" class="center"> </div>
-       
-      
-    <div class="flex-item-right"> <img src="blankimage.jpg" alt="" width="400 px" height="400 px" class="center"> </div>
-  </div>
-  
-<br>
+<
 <br><textarea id="w3review" name="w3review" rows="4" cols="50">
   Company Quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
   </textarea>
