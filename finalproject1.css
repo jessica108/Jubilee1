@@ -3,11 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  
-
-
-
-  /* The side navigation menu */
+   /* The side navigation menu */
 .sidebar {
   margin: 0;
   padding: 0;
@@ -80,47 +76,10 @@ div.content {
       right: 0;
       top: 0;
     }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-  * {
-    box-sizing: border-box;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  .flex-item-right {
-    background-color: #f1f1f1;
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-  }
-  
-  h1 {text-align: center;}
+    
   
   
   
   
   
   
-      
