@@ -7,7 +7,8 @@
 <style type="text/css"> </style>
 <link href="quizstyle.css" type="text/css" link rel="stylesheet">
 </head>
-
+<h1>Animal Habitat Quiz</h1>
+<!-- quiz box -->
 <body>
     <div class="quiz container" id="quiz">
         <div class="quiz-header">
@@ -34,8 +35,9 @@
 
         </div>
     <button id="submit"> Submit</button>
-
+        <!--Questions and answers-->
     <script>
+        
         const quizData = [
     {
         question: "Which habitat does a camel live in?",
@@ -70,13 +72,14 @@
         correct: "b",
     },
 ];
+/*answer check*/
 const quiz= document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
 const a_text = document.getElementById('a_text')
 const b_text = document.getElementById('b_text')
 const c_text = document.getElementById('c_text')
-const d_text = document.getElementById('d_text')
+const d_text = document.getElementById('d_text') 
 const submitBtn = document.getElementById('submit')
 let currentQuiz = 0
 let score = 0
@@ -102,6 +105,7 @@ function getSelected() {
     })
     return answer
 }
+/*submit data*/
 submitBtn.addEventListener('click', () => {
     const answer = getSelected()
     if(answer) {
