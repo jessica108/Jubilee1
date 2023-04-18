@@ -2,10 +2,10 @@
     box-sizing: border-box;
   }
   
-.img {
-    max width: 100%;
-    height: auto100%;
-}
+.responsive {
+    max-width: 100%;
+    height: auto;
+    }
 
 
   /* Style the body */
@@ -81,8 +81,8 @@
     padding: 20px;
   }
   
-  /* Main column */
-  .main {   
+  /* image column */
+  .image-container {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
     background-color: white; 
