@@ -1,5 +1,4 @@
 
-
 .header {
     padding: 25px;
     text-align: center;
@@ -7,10 +6,10 @@
     color: white;
     font-size: 20px;
   }
-/* body info*/
+
 
     body {
-        background-image: url('fibb.jpg');
+        background-image: url('4405.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -43,4 +42,5 @@ div {
     padding: 50px;
     margin: 190px;
 }
+
 }
