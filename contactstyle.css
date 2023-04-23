@@ -100,7 +100,7 @@ input[type=text], select {
 
 input[type=submit] {
   width: 100%;
-  background-color: #04AA6D;
+  background-color: #F8FFCA;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -110,7 +110,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #b6d084;
 }
 
 div.container {
@@ -119,5 +119,8 @@ div.container {
   padding: 20px;
 }
 h1 {
+  text-align: center;
+}
+p {
   text-align: center;
 }
