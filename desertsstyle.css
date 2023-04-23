@@ -150,3 +150,11 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
