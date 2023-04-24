@@ -7,7 +7,6 @@
     height: auto;
     }
 
-
   /* Style the body */
   body {
     font-family: Arial, Helvetica, sans-serif;
@@ -86,8 +85,7 @@
     }
   }
 
-}
-
+/* input form*/
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -112,7 +110,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #b6d084;
 }
-
+/* div box*/
 div.container {
   border-radius: 5px;
   background-color: #f2f2f2;
