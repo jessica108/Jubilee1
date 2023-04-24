@@ -10,7 +10,7 @@
     
 
   /* array of animals that live in the arctic*/
-  /*          0               1           2        3       4           */
+  /*           0               1           2        3       4           */
 var animals= ["polar bears","foxes", "caribou", "hare","seal"];
 
 
@@ -27,12 +27,13 @@ function removeitemfromlist() {
 function showAnimals (){
    document.getElementById("animals").innerHTML= "These animals have already been added to the list:" +  animals.join(",");
 }
-function removeitemfromlist()
+function removeanimalfromlist()
 {
 alert(animals.shift() + " your animal has been removed") ;
 showAnimals();
 }
 </script>
+</head>
 <!--End of animals list functions-->
 
 <body onload="showAnimals()">
@@ -77,9 +78,9 @@ showAnimals();
     <p><p id="demo"> Add the name of an animal you think lives in the arctic to the list. </p>
     <br>
     
-    <!--    <input type= "button"value="showanimals"onClick ="showanimals()" >-->
+    <!--   <input type= "button"value="showanimals"onClick ="showanimals()" >-->
     <!--Buttons for adding animals-->
-    <input type= "button"value="add animals"onClick ="add animals()" >
+    <input type= "button"value="addAnimals"onClick ="addAnimals()" >
     <input type= "button"value="Remove animals from list"onClick =" removeanimalfromlist()" >
     <p id="animals"></p>   
           </div>
