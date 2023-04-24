@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
   }
-  
+  /* responsive */
+
 .responsive {
     max-width: 100%;
     height: auto;
     }
-
 
   /* Style the body */
   body {
