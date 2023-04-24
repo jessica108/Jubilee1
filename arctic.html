@@ -15,27 +15,27 @@ var animals= ["polar bears","foxes", "caribou", "hare","seal"];
 
 
 /* functions to add animals to the page */
-function add Animals() {
+function addAnimals() {
  var animal = prompt("What animals live in the Arctic?");
  animals.push(animals);
- show animals();
+ showAnimals();
 }
 function removeitemfromlist() {
  alert(animals.shift() + " your animal has been removed from the list");
- show animals();
+ showAnimals();
 }
-function show animals (){
+function showAnimals (){
    document.getElementById("animals").innerHTML= "These animals have already been added to the list:" +  animals.join(",");
 }
 function removeitemfromlist()
 {
 alert(animals.shift() + " your animal has been removed") ;
-show animals();
+showAnimals();
 }
 </script>
 <!--End of animals list functions-->
 
-<body onload="show animals()">
+<body onload="showAnimals()">
 
   <br>
   <header></header>
