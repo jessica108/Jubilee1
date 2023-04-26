@@ -56,9 +56,6 @@ Padding:
   width: 50%
 }
 
-
-
-
 .box {
   background: lightgray;
   width: 300px;
@@ -70,7 +67,6 @@ Padding:
   margin-top: 300px;
   font-size: 22px;
 }
-
 
   .navbar {
     overflow: hidden;
