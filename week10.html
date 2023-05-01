@@ -15,22 +15,27 @@
 
 
 <script type="text/javascript">
-    
-    function fibonacci(num){
-  var a = 1, b = 0, temp;
-  while (num >= 0){
-    temp = a;
-    a = a + b;
-    b = temp;
-    num--;
-  }
-  return b;
-}
 
+    /*Defining the length of the sequence*/
+    var n = 10;
 
-var number = Math.floor(Math.random()*100);
-var result = fibonacci(number);
-    
+    /*the array with the first two values*/
+    var fib = [0, 1];
+
+    /* Loop to generate the sequence of the numbers */
+    for (var i = 2; i < n; i++) {
+        /*Calculate the next value by adding the two previous values to the numbers*/
+        fib[i] = fib[i-1] + fib[i-2];
+    }
+
+    /*sequence on the page*/
+    for (var i = 0; i < n; i++) {
+        document.write(fib[i] + "<br>");
+    }
+
+    document.getElementById("demo").innerHTML =
+    Math.floor(Math.random() * 100) + 1;
+
 </script>
     <!--calculation formula-->
 <body>
@@ -49,7 +54,12 @@ var result = fibonacci(number);
 34 <– = 21 + 13
     </p>
     
-    
+<h3> 
+    <p>Math.floor(Math.random() * 100) + 1) returns a random integer between 1 and 
+        100 (both included):</p>
+        
+        <p id="demo"></p>
+</h3>
     <br>
     <br>
     <br>
