@@ -6,32 +6,35 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--link to stylesheet-->
-<link rel="stylesheet" href="style9.css" type="text/css">
+<link rel="stylesheet" href="style10.css" type="text/css">
 <div class="header">
     <h1>The Fibonacci Sequence</h1>
-    <p>Week 9 - Loops and Week 10 - Randomness and time </p>
+    <p> Week 10 - Randomness and time </p>
   </div>
 
 
 
 <script type="text/javascript">
 
-    /*Defining the length of the sequence*/
-    var n = 10;
+var n = function getRandomNum() {
+     return Math.floor(Math.random()*100) +1;
+  }
 
-    /*the array with the first two values*/
-    var fib = [0, 1];
+var result = [];
+result[0] = 1;
+result[1] = 1;
 
-    /* Loop to generate the sequence of the numbers */
-    for (var i = 2; i < n; i++) {
-        /*Calculate the next value by adding the two previous values to the numbers*/
-        fib[i] = fib[i-1] + fib[i-2];
+function fib(x) {
+  var ix, ixLen;
+  for(ix = 0, ixLen = x; ix < ixLen; ix++){
+    if(!result[ix]){
+      result[ix] = result[ix-2] + result[ix-1];
     }
-
-    /*sequence on the page*/
-    for (var i = 0; i < n; i++) {
-        document.write(fib[i] + "<br>");
-    }
+  }
+  console.log('n:', x, ' result: ', result[ix-1]);
+  return result[ix-1];
+}
+console.log(fib(n()));
     </script>
     
     <!--calculation formula-->
