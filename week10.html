@@ -15,48 +15,27 @@
 
 
 <script type="text/javascript">
-    /*Defining the length of the sequence*/
-    var n = 10;
-
-    /*the array with the first two values*/
-    var fib = [0, 1];
-
-    /* Loop to generate the sequence of the numbers */
-    for (var i = 2; i < n; i++) {
-        /*Calculate the next value by adding the two previous values to the numbers*/
-        fib[i] = fib[i-1] + fib[i-2];
-    }
-
-    /*sequence on the page*/
-    for (var i = 0; i < n; i++) {
-        document.write(fib[i] + "<br>");
-    }
-
-    var n = function getRandomNum() {
-     return Math.floor(Math.random()*100) +1;
+    
+    function fibonacci(num){
+  var a = 1, b = 0, temp;
+  while (num >= 0){
+    temp = a;
+    a = a + b;
+    b = temp;
+    num--;
   }
-
-var result = [];
-result[0] = 1;
-result[1] = 1;
-
-function fib(x) {
-  var ix, ixLen;
-  for(ix = 0, ixLen = x; ix < ixLen; ix++){
-    if(!result[ix]){
-      result[ix] = result[ix-2] + result[ix-1];
-    }
-  }
-  console.log('n:', x, ' result: ', result[ix-1]);
-  return result[ix-1];
+  return b;
 }
-console.log(fib(n()));
 
+
+var number = Math.floor(Math.random()*100);
+var result = fibonacci(number);
+    
 </script>
     <!--calculation formula-->
 <body>
 
-h2> How it is calculated </h2>
+<h2> How it is calculated </h2>
 <p>
 0 <– First Number <br>
 1 <– Second Number <br>
