@@ -12,29 +12,12 @@
     <p> Week 10 - Randomness and time </p>
   </div>
 
-
-
+<p> Hhhhhhhhhhhhhhh</p>
+  <p id="demo"></p>
 <script>
 
-var n = function getRandomNum() {
-     return Math.floor(Math.random()*100) +1;
-  }
-
-var result = [];
-result[0] = 1;
-result[1] = 1;
-
-function fib(x) {
-  var ix, ixLen;
-  for(ix = 0, ixLen = x; ix < ixLen; ix++){
-    if(!result[ix]){
-      result[ix] = result[ix-2] + result[ix-1];
-    }
-  }
-  console.log('n:', x, ' result: ', result[ix-1]);
-  return result[ix-1];
-}
-console.log(fib(n()));
+let x = Math.floor((Math.random() * 100) + 1);
+document.getElementById("demo").innerHTML = x;
     </script>
     
     <!--calculation formula-->
