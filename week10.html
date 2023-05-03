@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!--header-->
 <head>
     <title> Week 10 Randomness</title>
     <meta charset="utf-8">
@@ -14,10 +14,16 @@
 
 <h1> Refresh your page to generate a new number. Is it a fibonacci number? See below to find out how the Fibonacci Sequence is calculated. </h1>
   <p id="demo"></p>
+<!--Script for generating random number-->
 <script>
 
 let x = Math.floor((Math.random() * 100) + 1);
 document.getElementById("demo").innerHTML = x;
+
+
+let time = document.getElementById("current-time");
+let d = new Date();
+time.innerHTML = d.toLocaleTimeString();
     </script>
     
     <!--calculation formula-->
